@@ -9,8 +9,17 @@
 <body>
     <header>
         <h1>Marie's cakes</h1>
-        </nav>
+    
     </header>
+    <script>
+            function validateForm() {
+                var name = document.forms["contactForm"]["name"].value;
+                if (name == "") {
+                    alert("Name must be filled out");
+                    return false;
+                }
+            }
+            </script>
     
     <main>
         <section class="contact-form">
